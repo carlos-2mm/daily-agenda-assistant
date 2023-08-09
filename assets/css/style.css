@@ -1,24 +1,29 @@
+/* general styling for the body, setting fonts, and basic colors */
 body {
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
+  color: #233c33;
 }
 
-.past {
-  background-color: #d3d3d3;
+/* styling for time states to indicate past, present, and future times */
+.past { background-color: #d3d3d3; }
+.present { background-color: #99ff99; }
+.future { background-color: #99f4ff; }
+
+/* setting the height of buttons and input fields for uniformity */
+.btn, .form-control {
+  height: 80px;
 }
 
-.present {
-  background-color: #99ff99;
-}
+/* primary button color customization */
+.btn-primary { background-color: #83A3FF; }
 
-.future {
-  background-color: #99f4ff;
-}
+/* styling for the save icon */
+.fa-solid.fa-floppy-disk { font-size: 34px; }
 
-button{
-  height: 40px;
-}
-
-.fa-solid.fa-floppy-disk {
-  font-size: 30px;
+/* styling for the hour label displayed on each row */
+.hour-label {
+  font-family: 'Inter', sans-serif;
+  color: #516B61;
+  text-align: right;
 }
